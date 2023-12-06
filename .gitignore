@@ -6,3 +6,5 @@
 
 # Allow Python scripts in subfolders
 !/*/
+
+example.txt
