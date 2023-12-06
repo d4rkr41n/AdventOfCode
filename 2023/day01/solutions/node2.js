@@ -25,7 +25,7 @@ nums = {
   "eight": 8,
   "nine": 9
 }
-let cnt = 0;
+
 var sum = input.map(function(line) {
   lineF = line.replace(/one|two|three|four|five|six|seven|eight|nine/gi, m => nums[m]);
   lineB = rev(line).replace(/enin|thgie|neves|xis|evif|ruof|eerht|owt|eno/gi, m => nums[rev(m)]);
