@@ -1,8 +1,6 @@
 with open("../input.txt", "r") as fp:
   inputs = fp.readlines()
 
-numbers = ["one","two","three","four","five","six","seven","eight","nine"]
-
 sum = 0
 for line in inputs:
 
