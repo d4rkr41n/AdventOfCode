@@ -7,4 +7,5 @@
 # Allow Python scripts in subfolders
 !/*/
 
-example.txt
+# Hide my test cases
+example*.txt
