@@ -1,4 +1,4 @@
-with open("../example.txt", "r") as fp:
+with open("../input.txt", "r") as fp:
   inputs = [
     [int(result), list(map(int, nums.split()))]
     for line in fp
